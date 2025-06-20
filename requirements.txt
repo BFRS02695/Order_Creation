@@ -1,0 +1,64 @@
+# Core dependencies
+fastapi==0.115.13
+uvicorn==0.34.3
+python-multipart==0.0.20
+pydantic==2.11.7
+requests==2.32.4
+
+# OCR dependencies
+opencv-python==4.11.0.86
+pillow==10.4.0
+pytesseract==0.3.10
+pdf2image==1.17.0
+# paddleocr==2.7.0.3
+# easyocr==1.7.1
+
+# Validation dependencies
+python-dateutil==2.9.0
+phonenumbers==8.13.30
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.4
+numpy==2.0.2
+
+# Testing
+pytest==8.1.1
+
+# Image processing and computer vision
+scikit-image==0.22.0
+
+# LLM and AI APIs
+openai==1.3.7
+anthropic==0.7.7
+
+# Database and caching
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.13.0
+redis==5.0.1
+
+# Utilities and validation
+regex==2023.10.3
+
+# Text processing and NLP
+spacy==3.7.2
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.23.0
+
+# Monitoring and logging
+prometheus-client==0.19.0
+
+# Testing (development)
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Cloud OCR services (optional)
+google-cloud-vision==3.4.5
+boto3==1.34.0
+azure-cognitiveservices-vision-computervision==0.9.0
+
+# Additional utilities
+aiofiles==23.2.1
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4 
